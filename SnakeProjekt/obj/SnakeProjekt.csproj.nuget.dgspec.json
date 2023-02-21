@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\visual studio\\GameBoardInterface\\SnakeProjekt\\SnakeProjekt.csproj": {}
+    "C:\\Users\\Privat\\Source\\Repos\\GameBoardInterface\\SnakeProjekt\\SnakeProjekt.csproj": {}
   },
   "projects": {
-    "D:\\visual studio\\GameBoardInterface\\SnakeProjekt\\SnakeProjekt.csproj": {
+    "C:\\Users\\Privat\\Source\\Repos\\GameBoardInterface\\SnakeProjekt\\SnakeProjekt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\visual studio\\GameBoardInterface\\SnakeProjekt\\SnakeProjekt.csproj",
+        "projectUniqueName": "C:\\Users\\Privat\\Source\\Repos\\GameBoardInterface\\SnakeProjekt\\SnakeProjekt.csproj",
         "projectName": "SnakeProjekt",
-        "projectPath": "D:\\visual studio\\GameBoardInterface\\SnakeProjekt\\SnakeProjekt.csproj",
-        "packagesPath": "C:\\Users\\Gamin\\.nuget\\packages\\",
-        "outputPath": "D:\\visual studio\\GameBoardInterface\\SnakeProjekt\\obj\\",
+        "projectPath": "C:\\Users\\Privat\\Source\\Repos\\GameBoardInterface\\SnakeProjekt\\SnakeProjekt.csproj",
+        "packagesPath": "C:\\Users\\Privat\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Privat\\Source\\Repos\\GameBoardInterface\\SnakeProjekt\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Gamin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Privat\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

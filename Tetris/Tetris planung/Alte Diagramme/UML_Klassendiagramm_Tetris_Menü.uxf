@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>403</x>
+      <y>143</y>
+      <w>520</w>
+      <h>182</h>
+    </coordinates>
+    <panel_attributes>ViewTetrisMenü
+--
+- labelName : string
+- buttonSpeilen : Button
+- buttonEinstellungen : Button
+
+--
+- buttonSpeilen_Click(sender:object e:EventArgs):void
+- buttonEinstellungen_Click(sender:object e:EventArgs):void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

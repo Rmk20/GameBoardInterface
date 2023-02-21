@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>16</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>128</x>
+      <y>80</y>
+      <w>576</w>
+      <h>288</h>
+    </coordinates>
+    <panel_attributes>ViewTetrisEinstellungen
+--
+- labelLautsträke: Label
+- labelName : Label
+- textboxNamen : TextBox
+- trackBarLautstärke : trackBar
+- buttonSpeichern : Button
+--
++ ViewTetrisEinstellungen()
+- buttonSpeichern_Click(sender:object , e:Events):void
+- onTetrisEinstellungenAktualisieren()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>720</x>
+      <y>80</y>
+      <w>336</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>TetrisEinstellungen
+--
+- Name : string
+- Lautstärke : float</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>720</x>
+      <y>208</y>
+      <w>720</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>ControlerTetrisEinstellungen
+--
+--
++ einstellungenSpeichern(einstellungen:TetrisEinstellungen) : void
++ einstellungenLesen(einstellungen:TetrisEinstellungen) : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>720</x>
+      <y>384</y>
+      <w>704</w>
+      <h>208</h>
+    </coordinates>
+    <panel_attributes>ModelTetris
+--
++ event EventHandler TetrisEnstellungen
+
+--
++ einstellungenSpeichern(einstellungen:TetrisEinstellungen) : void
++ einstellungenLesen(einstellungen:TetrisEinstellungen) : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

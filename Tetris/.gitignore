@@ -1,0 +1,7 @@
+################################################################################
+# Diese .gitignore-Datei wurde von Microsoft(R) Visual Studio automatisch erstellt.
+################################################################################
+/Tetris_Game/Tetris_Game/bin/
+/Tetris_Game/Tetris_Game/obj/
+/Tetris_Game/.vs/
+/.vs/

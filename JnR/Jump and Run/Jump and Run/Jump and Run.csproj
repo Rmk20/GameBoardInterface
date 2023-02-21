@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7B4992B8-A37F-45BA-8699-3161FC6EBA05}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Jump_and_Run</RootNamespace>
+    <AssemblyName>Jump and Run</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ControllerSpiel.cs" />
+    <Compile Include="ControllerMusik.cs" />
+    <Compile Include="ControllerMenu.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewHighscore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewHighscore.Designer.cs">
+      <DependentUpon>ViewHighscore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewMenu.Designer.cs">
+      <DependentUpon>ViewMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStart.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewMusik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewMusik.Designer.cs">
+      <DependentUpon>ViewMusik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewSpiel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewSpiel.Designer.cs">
+      <DependentUpon>ViewSpiel.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ViewHighscore.resx">
+      <DependentUpon>ViewHighscore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewMenu.resx">
+      <DependentUpon>ViewMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewMusik.resx">
+      <DependentUpon>ViewMusik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewSpiel.resx">
+      <DependentUpon>ViewSpiel.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hintergrund.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hintergrund.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hintergrundmal2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hintergrundversuch2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hintergrundversuch3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpielerModell mit Waffe.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spieler_test.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spieler_test2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stein1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HindernisStein1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HindernisStein2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gegnerVogel1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360_F_232444335_HCNY6biiF3TVrCqoMepz3Jjem8DchGYo.jpg" />
+    <None Include="Resources\brick.jpg" />
+    <None Include="Resources\Cave Background.jpeg" />
+    <None Include="Resources\GegnerModell Fledermaus.gif" />
+    <None Include="Resources\Gegnermodell Spinne.gif" />
+    <None Include="Resources\pngegg.png" />
+    <None Include="Resources\SpielerModell.gif" />
+    <None Include="Resources\WhatsApp Image 2023-01-10 at 16.46.01.jpeg" />
+    <None Include="Resources\E79C9E76-8280-469D-ABA3-B18D06C7D321.png" />
+    <None Include="Resources\output-onlinepngtools.png" />
+    <Content Include="SpielMusik.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

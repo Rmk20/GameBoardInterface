@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>403</x>
+      <y>143</y>
+      <w>520</w>
+      <h>234</h>
+    </coordinates>
+    <panel_attributes>StartMenue
+--
+- lblTetris : Lable
+- Startbtn : Button
+- btnViewHighscore : Button
+- Steuerungbtn : Button
+- Einstellungenbtn : Button
+--
+- SpielLaden(object sender, EventArgs e):void
+- EinstelungenAufrufen(object sender, EventArgs e):void
+- Steuerungbtn_Click(object sender, EventArgs e):void
+- btnViewHighscore_Click(object sender, EventArgs e):void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
