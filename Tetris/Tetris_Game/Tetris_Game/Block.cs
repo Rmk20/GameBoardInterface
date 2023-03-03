@@ -40,12 +40,12 @@ namespace Tetris_Game
             Color[] color = new Color[]
             {
                 Color.FromArgb(104, 205, 255),      // Square
-                Color.FromArgb(255, 5, 0 ),     // -------
-                Color.FromArgb(254, 102, 3 ),    // L
+                Color.FromArgb(255, 5, 0 ),        // -------
+                Color.FromArgb(254, 102, 3 ),     // L
                 Color.FromArgb(205, 4, 255 ),    // Reverse L
-                Color.FromArgb(6, 1, 255 ),    // Z
-                Color.FromArgb(162, 255, 255 ),    // Reverse Z
-                Color.FromArgb(14, 255, 10 )      // T
+                Color.FromArgb(6, 1, 255 ),     // Z
+                Color.FromArgb(162, 255, 255 ),// Reverse Z
+                Color.FromArgb(14, 255, 10 )  // T
             };
             Random random = new Random();
             int randomNum = random.Next(blocks.Length);

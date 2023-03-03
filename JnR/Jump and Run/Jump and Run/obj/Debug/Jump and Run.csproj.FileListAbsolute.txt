@@ -87,3 +87,18 @@ F:\Software\Präsentation\Jump and Run\Jump and Run\obj\Debug\Jump and Run.cspro
 F:\Software\Präsentation\Jump and Run\Jump and Run\obj\Debug\Jump and Run.csproj.CoreCompileInputs.cache
 F:\Software\Präsentation\Jump and Run\Jump and Run\obj\Debug\Jump and Run.exe
 F:\Software\Präsentation\Jump and Run\Jump and Run\obj\Debug\Jump and Run.pdb
+C:\Users\Kuhlmann.jan\source\repos\Rmk20\Rmk20\GameBoardInterface\JnR\Jump and Run\Jump and Run\bin\Debug\SpielMusik.wav
+C:\Users\Kuhlmann.jan\source\repos\Rmk20\Rmk20\GameBoardInterface\JnR\Jump and Run\Jump and Run\bin\Debug\Jump and Run.exe.config
+C:\Users\Kuhlmann.jan\source\repos\Rmk20\Rmk20\GameBoardInterface\JnR\Jump and Run\Jump and Run\bin\Debug\Jump and Run.exe
+C:\Users\Kuhlmann.jan\source\repos\Rmk20\Rmk20\GameBoardInterface\JnR\Jump and Run\Jump and Run\bin\Debug\Jump and Run.pdb
+C:\Users\Kuhlmann.jan\source\repos\Rmk20\Rmk20\GameBoardInterface\JnR\Jump and Run\Jump and Run\obj\Debug\Jump and Run.csproj.AssemblyReference.cache
+C:\Users\Kuhlmann.jan\source\repos\Rmk20\Rmk20\GameBoardInterface\JnR\Jump and Run\Jump and Run\obj\Debug\Jump and Run.csproj.SuggestedBindingRedirects.cache
+C:\Users\Kuhlmann.jan\source\repos\Rmk20\Rmk20\GameBoardInterface\JnR\Jump and Run\Jump and Run\obj\Debug\Jump_and_Run.ViewHighscore.resources
+C:\Users\Kuhlmann.jan\source\repos\Rmk20\Rmk20\GameBoardInterface\JnR\Jump and Run\Jump and Run\obj\Debug\Jump_and_Run.ViewMenu.resources
+C:\Users\Kuhlmann.jan\source\repos\Rmk20\Rmk20\GameBoardInterface\JnR\Jump and Run\Jump and Run\obj\Debug\Jump_and_Run.Properties.Resources.resources
+C:\Users\Kuhlmann.jan\source\repos\Rmk20\Rmk20\GameBoardInterface\JnR\Jump and Run\Jump and Run\obj\Debug\Jump_and_Run.ViewMusik.resources
+C:\Users\Kuhlmann.jan\source\repos\Rmk20\Rmk20\GameBoardInterface\JnR\Jump and Run\Jump and Run\obj\Debug\Jump_and_Run.ViewSpiel.resources
+C:\Users\Kuhlmann.jan\source\repos\Rmk20\Rmk20\GameBoardInterface\JnR\Jump and Run\Jump and Run\obj\Debug\Jump and Run.csproj.GenerateResource.cache
+C:\Users\Kuhlmann.jan\source\repos\Rmk20\Rmk20\GameBoardInterface\JnR\Jump and Run\Jump and Run\obj\Debug\Jump and Run.csproj.CoreCompileInputs.cache
+C:\Users\Kuhlmann.jan\source\repos\Rmk20\Rmk20\GameBoardInterface\JnR\Jump and Run\Jump and Run\obj\Debug\Jump and Run.exe
+C:\Users\Kuhlmann.jan\source\repos\Rmk20\Rmk20\GameBoardInterface\JnR\Jump and Run\Jump and Run\obj\Debug\Jump and Run.pdb

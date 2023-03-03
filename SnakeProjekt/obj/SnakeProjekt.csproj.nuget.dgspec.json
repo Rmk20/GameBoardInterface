@@ -1,24 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Privat\\Source\\Repos\\GameBoardInterface\\SnakeProjekt\\SnakeProjekt.csproj": {}
+    "C:\\Users\\Kuhlmann.jan\\source\\repos\\Rmk20\\Rmk20\\GameBoardInterface\\SnakeProjekt\\SnakeProjekt.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Privat\\Source\\Repos\\GameBoardInterface\\SnakeProjekt\\SnakeProjekt.csproj": {
+    "C:\\Users\\Kuhlmann.jan\\source\\repos\\Rmk20\\Rmk20\\GameBoardInterface\\SnakeProjekt\\SnakeProjekt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Privat\\Source\\Repos\\GameBoardInterface\\SnakeProjekt\\SnakeProjekt.csproj",
+        "projectUniqueName": "C:\\Users\\Kuhlmann.jan\\source\\repos\\Rmk20\\Rmk20\\GameBoardInterface\\SnakeProjekt\\SnakeProjekt.csproj",
         "projectName": "SnakeProjekt",
-        "projectPath": "C:\\Users\\Privat\\Source\\Repos\\GameBoardInterface\\SnakeProjekt\\SnakeProjekt.csproj",
-        "packagesPath": "C:\\Users\\Privat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Privat\\Source\\Repos\\GameBoardInterface\\SnakeProjekt\\obj\\",
+        "projectPath": "C:\\Users\\Kuhlmann.jan\\source\\repos\\Rmk20\\Rmk20\\GameBoardInterface\\SnakeProjekt\\SnakeProjekt.csproj",
+        "packagesPath": "C:\\Users\\Kuhlmann.jan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kuhlmann.jan\\source\\repos\\Rmk20\\Rmk20\\GameBoardInterface\\SnakeProjekt\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Privat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kuhlmann.jan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0-windows"
+          "net6.0-windows7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -45,8 +48,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -58,7 +60,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
